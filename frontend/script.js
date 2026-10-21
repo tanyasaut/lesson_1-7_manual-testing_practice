@@ -8,7 +8,7 @@ const refreshButton = document.querySelector('#refresh-button');
 const submitButton = document.querySelector('#submit-button');
 const submitStatus = document.querySelector('#submit-status');
 const draftStatus = document.querySelector('#draft-status');
-const topicLabels = { html: 'HTML и CSS', javascript: 'HTML и CSS', api: 'HTTP и API' };
+const topicLabels = { html: 'HTML и CSS', javascript: 'JavaScript и DOM', api: 'HTTP и API' };
 
 function setListState(state, text) {
   listStatus.textContent = text;
